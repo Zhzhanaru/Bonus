@@ -1,0 +1,154 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ecf0f1;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.chat-list {
+  width: 30%;
+  padding: 20px;
+  background-color: #3498db;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.chat-list h2 {
+  color: #ffffff;
+}
+
+.chat-list ul {
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.chat-list li {
+  padding: 15px;
+  margin-bottom: 5px;
+  background-color: #2980b9;
+  border: 1px solid #297fb8;
+  border-radius: 5px;
+  color: #ffffff;
+  transition: background-color 0.3s;
+}
+
+.chat-list li:hover {
+  background-color: #1f6fa3;
+}
+
+.chat-list li.selected {
+  background-color: #1a5276;
+}
+
+.chat-list form {
+  margin-top: 20px;
+}
+
+.chat-list input {
+  margin-top:30px;
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.chat-list button {
+  padding: 10px;
+  background-color: #ffffff;
+  color: #3498db;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.delete-button {
+  display: block;
+  margin-left: 350px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #3498db;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #3498db;
+  color: #ffffff;
+}
+.chat-list button:hover {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.chat-window {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+.chatname {
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  margin-top: 45px;
+  background-color: #3498db;
+}
+.message-list {
+  flex: 1;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.chat-window form {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.chat-window textarea {
+  flex: 1;
+  height: 35px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 80%;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.chat-window button {
+  padding: 20px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.chat-window button:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,28 @@
+/* App.css */
+
+.messenger-container {
+  display: flex;
+}
+
+.chat-list {
+  width: 20%;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.chat-window {
+  flex: 1;
+  padding: 10px;
+}
+
+.chat-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* .chat-messages {
+  /* Style your chat messages here */
+/* } */ 
+/*  */

@@ -1,0 +1,49 @@
+{
+  "chats": [
+    {
+      "id": 1,
+      "name": "Aruzhan"
+    },
+    {
+      "id": 2,
+      "name": "Togzhan"
+    },
+    {
+      "id": 3,
+      "name": "Zhanerke"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "chatId": 1,
+      "sender": "Aruzhan",
+      "text": "Hello Zhanaru!"
+    },
+    {
+      "id": 2,
+      "chatId": 2,
+      "sender": "Togzhan",
+      "text": "Hi Zhanaru!"
+    },
+    {
+      "id": 3,
+      "chatId": 1,
+      "sender": "Aruzan",
+      "text": "How are you?"
+    },
+    {
+      "id": 4,
+      "chatId": 2,
+      "sender": "Togzhan",
+      "text": "I'm good, thanks!"
+    },
+    {
+      "id": 5,
+      "chatId": 3,
+      "sender": "Zhanerke",
+      "text": "Hey there!"
+    }
+    
+  ]
+}
